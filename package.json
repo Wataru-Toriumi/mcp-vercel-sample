@@ -13,10 +13,12 @@
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "tailwindcss": "4.1.7",
     "zod": "3.24.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@modelcontextprotocol/inspector": "0.12.0",
     "@modelcontextprotocol/sdk": "1.11.3",
     "@types/node": "^20",
     "@types/react": "^19",

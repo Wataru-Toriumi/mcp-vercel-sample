@@ -24,3 +24,12 @@
 node scripts/test-client.mjs
 node scripts/test-http-client.mjs
 ```
+
+また、`@modelcontextprotocol/inspector` も使用できます。
+以下のコマンドで Inspector を起動できます。
+
+```bash
+npx @modelcontextprotocol/inspector
+```
+
+起動したら、Connect することで、Tool を利用することができます。
