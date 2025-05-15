@@ -21,15 +21,15 @@
 テストを実行するには、以下のコマンドを使用します。
 
 ```bash
-node scripts/test-client.mjs
-node scripts/test-http-client.mjs
+pnpm run test:sse
+pnpm run test:http
 ```
 
 また、`@modelcontextprotocol/inspector` も使用できます。
 以下のコマンドで Inspector を起動できます。
 
 ```bash
-npx @modelcontextprotocol/inspector
+pnpm run debug:inspector
 ```
 
 起動したら、Connect することで、Tool を利用することができます。

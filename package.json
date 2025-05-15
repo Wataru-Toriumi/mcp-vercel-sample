@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:sse": "node scripts/test-client.mjs",
+    "test:http": "node scripts/test-http-client.mjs",
+    "debug:inspector": "npx @modelcontextprotocol/inspector"
   },
   "dependencies": {
     "@vercel/mcp-adapter": "0.4.0",
